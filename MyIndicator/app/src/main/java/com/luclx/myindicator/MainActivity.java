@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         mViewPage = (ViewPager) findViewById(R.id.viewPager);
         mIndicator = (IndicatorView) findViewById(R.id.indicator);
 
-        numPager = 5;
+        numPager = 6;
         mAdapter = new MyPagerAdapter(getSupportFragmentManager(), numPager);
         mViewPage.setAdapter(mAdapter);
         try {
