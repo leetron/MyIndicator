@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndicatorView">
+        <attr name="luclx_radius_unselected" format="dimension" />
+        <attr name="luclx_radius_selected" format="dimension" />
+        <attr name="luclx_color_unselected" format="color" />
+        <attr name="luclx_color_selected" format="color" />
+        <attr name="luclx_distance" format="dimension" />
+    </declare-styleable>
+</resources>
